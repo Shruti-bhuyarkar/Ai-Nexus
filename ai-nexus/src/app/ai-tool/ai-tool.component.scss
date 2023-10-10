@@ -1,0 +1,24 @@
+/* Apply styles to the container holding the AI buttons */
+.ai-buttons {
+    margin-top: 20px;
+    display:flex; /* Display buttons in a row */
+    flex-wrap: wrap;
+    justify-content: center; /* Center-align buttons horizontally */
+    gap: 30px; /* Add space between buttons */
+  }
+  
+  /* Style the buttons */
+  .ai-buttons button {
+    background-color: #0e020a; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around text */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    
+  }
+  
+  /* Style the buttons on hover */
+  .ai-buttons button:hover {
+    background-color: #5f8829; /* Hover background color */
+  }
